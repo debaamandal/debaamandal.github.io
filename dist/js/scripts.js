@@ -45,7 +45,7 @@ window.addEventListener('DOMContentLoaded', event => {
 
 // Birthday
 const countdown = () => {
-    const countDate = new Date("August 17, 2023 00:00:00").getTime();
+    const countDate = new Date("August 17, 2024 00:00:00").getTime();
     const now = new Date().getTime();
     const gap = countDate - now;
 
